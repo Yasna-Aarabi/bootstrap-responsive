@@ -1,0 +1,247 @@
+@font-face {
+    font-family: font1;
+    src: url(../font/InterTight-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../font/InterTight-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(../font/RobotoSlab-VariableFont_wght.ttf);
+}
+body{
+    background-color: azure;
+    padding-bottom: 0vh;
+}
+
+.forminput {
+    width: 70%;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgba(219, 214, 214, 0.678);
+    display: flex;
+
+    >* {
+        /* border: 1px solid black; */
+        display: flex;
+        height: 100%;
+
+    }
+
+    >a {
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+
+        i {
+            color: black;
+            font-size: 20px;
+        }
+    }
+
+    >input {
+        width: 80%;
+        border: none;
+        background-color: transparent;
+        outline: none;
+    }
+}
+
+.txt {
+    font-family: font2;
+    font-size: 15px;
+}
+
+.icon1 {
+    >div {
+        a {
+            i {
+                font-size: 22px;
+                color: black;
+
+                &:hover {
+                    color: rgb(0, 110, 255);
+                }
+            }
+        }
+    }
+}
+
+.icon2 {
+    color: black;
+    font-size: 22px;
+
+    &:hover {
+        color: rgb(0, 110, 255);
+    }
+}
+
+.navbar {
+    >ul {
+        width: 40px;
+        height: 20px;
+
+        >li {
+            ul {
+                display: none;
+
+                >li {
+                    list-style-type: none;
+                    margin-top: 10px;
+                    background-color: rgb(186, 216, 216);
+
+                    >a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+.liHeader {
+    font-family: font2;
+
+    &:hover {
+        color: rgb(0, 110, 255);
+    }
+}
+
+/* //header// */
+
+.nav2 {
+    width: 100px;
+    height: 60px;
+    background-image: url(../img/footprint.jpg);
+    background-size: cover;
+}
+
+.row1 {
+    h4 {
+        font-family: font3;
+        font-size: 15px;
+        padding-top: 20px;
+    }
+}
+
+/* ////ENDnav2//// */
+.slide {
+    min-height: 90vh;
+    background-image: url(../img/banner-5@2x-scaled.jpg);
+    background-size: cover;
+    position: relative;
+
+    &::before {
+        content: '';
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(66, 55, 55, 0.356);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.txt1 {
+    font-family: font3;
+
+    >h4 {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    >h1 {
+        font-size: 45px;
+    }
+}
+
+/* ///ENDSlide/// */
+
+.nav3 {
+    width: 100px;
+    height: 140px;
+    background-image: url(../img/footprint.jpg);
+    background-size: cover;
+}
+
+.row2 {
+    * {
+        font-family: font2;
+        font-size: 25px;
+        padding-top: 26px;
+    }
+
+    >a {
+        font-size: 20px;
+    }
+}
+
+/* //////END/////// */
+.card1 {
+    display: flex; 
+    flex-wrap: wrap;         
+    justify-content: center; 
+    gap: 20px;               
+    padding: 20px 0;
+    flex: 1 0 auto;          
+}
+
+.card-custom {
+    flex: 0 1 20rem;
+    position: relative;
+    border: none;
+}
+
+.cap {
+    width: 100%;
+    background-color: rgba(0,0,0,0.425);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: font2;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    pointer-events: none;
+}
+
+
+
+/* ///////ENDcard/// */
+
+.copy{
+    width: 100%;
+    min-height: 180px;
+
+    background-image: url("../img/Paw pet seamless pattern, dog or cat footprint texture, animal background, grunge stamp repeat_ Cartoon loop animation on blue background_.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top left;
+}
+
+.profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    overflow: hidden;
+}
+
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ .icons{
+    >a{
+        transition: 1s;
+    &:hover{
+        scale: 1.2;
+    }
+ }
+}
